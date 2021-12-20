@@ -1,0 +1,178 @@
+.css-ypiqx9-MuiDialogContent-root {
+  padding: 0;
+  overflow: visible;
+}
+.MuiDialog-container .MuiPaper-root {
+  visibility: hidden;
+  height: 400px;
+  overflow: visible;
+}
+
+.registration-form {
+  visibility: visible;
+  width: 95%;
+  margin: auto;
+  overflow: visible;
+  background: transparent;
+}
+.registration-form header {
+  position: relative;
+  z-index: 4;
+  border-width: 10vw;
+  border: double crimson;
+  background-color: black;
+  padding: 20px 40px;
+  border-radius: 15px 15px 15px 15px;
+}
+.registration-form header h1 {
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  color: crimson;
+  font-size: 23px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.registration-form header p {
+  word-spacing: 0px;
+  color: #9facb6;
+  font-size: 17px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.registration-form .input-section {
+  width: 95%;
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translate(-50%, -22%);
+  height: 75px;
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in;
+}
+.registration-form .input-section.folded {
+  width: 92%;
+  margin-top: 10px;
+  left: 50%;
+  transform: translate(-50%, -22%);
+  z-index: 1;
+}
+.registration-form .input-section.folded input {
+  background-color: rgb(201, 201, 201);
+}
+.registration-form .input-section.folded span {
+  background-color: rgb(201, 201, 201);
+}
+.registration-form .input-section.folded + .folded {
+  width: 90%;
+  margin-top: 20px;
+  left: 50%;
+  transform: translate(-50%, -22%);
+  z-index: 0;
+}
+.registration-form .input-section.folded + .folded input {
+  background-color: crimson;
+}
+.registration-form .input-section.folded + .folded span {
+  background-color: crimson;
+}
+.registration-form .input-section.fold-up {
+  margin-top: -75px;
+}
+.registration-form form input {
+  background: #fff;
+  color: crimson;
+  width: 80%;
+  border: 0;
+  padding: 20px 40px;
+  margin: 0;
+}
+.registration-form form input:focus {
+  outline: none;
+}
+.registration-form form input::placeholder {
+  color: black;
+  font-weight: 100;
+}
+.animated-button {
+  width: 20%;
+  background-color: rgb(53, 49, 49);
+}
+.animated-button span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 75px;
+  text-align: center;
+  height: 75px;
+  transition: all 0.2s ease-in;
+}
+.animated-button span i {
+  font-size: 25px;
+  color: crimson;
+}
+.animated-button .next-button {
+  width: 95%;
+}
+.next {
+  margin-top: -75px;
+}
+
+.success {
+  width: 95%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -22%);
+  height: 75px;
+  border-radius: 15px 15px 15px 15px;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in;
+  background: limegreen;
+  margin-top: -75px;
+}
+.show {
+  margin-top: 0px;
+}
+.success p {
+  color: white;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .registration-form {
+    width: 100%;
+  }
+  .registration-form input {
+    font-size: 10px;
+  }
+  .registration-form .label {
+    padding: 10px;
+    font-size: 12px;
+  }
+}
+
+.label {
+  width: 40%;
+  padding: 12px 30px 0;
+  color: black;
+  background-color: crimson;
+  transition: 1s;
+}
+.noDisplay {
+  width: 0;
+  display: none;
+}

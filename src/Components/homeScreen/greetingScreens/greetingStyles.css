@@ -1,0 +1,44 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  /* background-color: black; */
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.videoDiv {
+  text-align: center;
+}
+.buttDiv {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 10vw;
+  text-align: center;
+}
+.buttonDiv {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+[class*="btn-"] {
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.felix {
+  font-size: 10vw;
+  color: red;
+  margin-top: 2vw;
+  margin-bottom: 1rem;
+}
+.felixSubText {
+  margin: 1rem;
+  color: red;
+}
+#myVideo {
+  width: 100%;
+  height: auto;
+  filter: brightness(30%);
+}

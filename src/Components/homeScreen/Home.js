@@ -41,6 +41,7 @@ function Home() {
 
       .catch((err) => console.log(err));
   }, [logged, changeLogged]);
+  // Check
 
   return logged ? <Logged users={usersArray} /> : <Notlogged />;
 }

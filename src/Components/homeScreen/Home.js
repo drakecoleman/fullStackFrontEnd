@@ -10,7 +10,7 @@ function Home() {
   let [logged, changeLogged] = useState(false);
   let [usersArray, setUsersArray] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3000/", {
+    fetch("https://profilestiebackend.herokuapp.com/", {
       method: "GET",
       credentials: "include",
       withCredentials: true,

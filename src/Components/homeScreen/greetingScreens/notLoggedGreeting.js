@@ -69,14 +69,14 @@ function NotLogged() {
           className="dis"
           button={
             <React.Fragment>
-              <Button key="3" text="Login" onClick={handleLoginOpen} />,
+              <Button key="3" text="Login" onClick={handleLoginOpen} />
               <Button key="4" text="Register" onClick={handleClickOpen} />
             </React.Fragment>
           }
         />
       </div>
       <video muted autoPlay loop id="myVideo">
-        <source src={Video} type="video/mp4" />
+        {/* <source src={Video} type="video/mp4" /> */}
       </video>
     </div>,
   ];

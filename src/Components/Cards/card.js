@@ -12,7 +12,7 @@ import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+// import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { CardActionArea } from "@mui/material";
 import "./cardStyles.css";
 const ExpandMore = styled((props) => {
@@ -77,7 +77,7 @@ function Cards(props) {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          <ExpandMoreIcon />
+          {/* <ExpandMoreIcon /> */}
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>

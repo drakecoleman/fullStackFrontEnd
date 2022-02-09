@@ -11,7 +11,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import ShareIcon from "@material-ui/icons/Share";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+// import ExpandMoreIcon from "@mui/material/ExpandMore";
 import picture from "../../assets/yourimage.jpeg";
 import "./cardStyles.css";
 import MailIcon from "@material-ui/icons/Mail";
@@ -84,7 +84,7 @@ function Profile(props) {
           aria-expanded={expanded}
           aria-label="show more"
         >
-          <ExpandMoreIcon />
+          {/* <ExpandMoreIcon /> */}
         </ExpandMore>
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>

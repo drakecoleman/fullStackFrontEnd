@@ -62,9 +62,9 @@ function Board(props) {
     }
   };
   function submission(e) {
-    fetch(`http://localhost:3000/${props.fetchRoute}`, {
-      method: "POST",
-      credentials: "include",
+    fetch(`https://profilestiebackend.herokuapp.com/${props.fetchRoute}`, {
+      method: `POST`,
+      credentials: `include`,
       withCredentials: true,
       headers: {
         "Content-Type": "application/json",

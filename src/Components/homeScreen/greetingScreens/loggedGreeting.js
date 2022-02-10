@@ -43,7 +43,7 @@ function Logged(props) {
   });
 
   const profileClick = (f) => {
-    fetch("https://profilestiebackend.herokuapp.com/getUserProfile", {
+    fetch("http://profilestiebackend.herokuapp.com/getUserProfile", {
       method: "POST",
       credentials: "include",
       withCredentials: true,

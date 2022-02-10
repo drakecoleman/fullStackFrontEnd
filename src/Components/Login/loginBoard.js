@@ -16,7 +16,7 @@ function RegisterBoard() {
   }
   function submission(e) {
     e.preventDefault();
-    fetch("https://profilestiebackend.herokuapp.com/login", {
+    fetch("http://profilestiebackend.herokuapp.com/login", {
       method: "POST",
       credentials: "include",
       withCredentials: true,

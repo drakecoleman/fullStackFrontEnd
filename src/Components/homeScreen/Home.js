@@ -32,9 +32,11 @@ function Home() {
             lName: data.user.lName,
             title: data.user.title,
           });
+          console.log(data);
           changeLogged(true);
           setUsersArray(data.response);
         } else {
+          console.log(data);
           return changeLogged(false);
         }
       })

@@ -10,7 +10,7 @@ function Home() {
   let [logged, changeLogged] = useState(false);
   let [usersArray, setUsersArray] = useState([]);
   useEffect(() => {
-    fetch("https://profilestiebackend.herokuapp.com/", {
+    fetch("http://www.thehoodconservative.com/", {
       method: "GET",
       credentials: "include",
       withCredentials: true,

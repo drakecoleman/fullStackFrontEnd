@@ -4,7 +4,7 @@ import "./user.css";
 
 let Fetch = () => {
   let history = useHistory();
-  fetch("http://localhost:3000/user", {
+  fetch("https://www.thehoodconservative.com/user", {
     method: "GET",
     credentials: "include",
     withCredentials: true,

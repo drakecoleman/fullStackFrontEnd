@@ -9,7 +9,7 @@ function LogOut() {
   function loggingout(e) {
     e.preventDefault();
 
-    fetch("http://localhost:3000/logout", {
+    fetch("https://www.thehoodconservative.com/logout", {
       method: "GET",
       credentials: "include",
       withCredentials: true,

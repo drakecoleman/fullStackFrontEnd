@@ -16,7 +16,7 @@ function RegisterBoard() {
   }
   function submission(e) {
     e.preventDefault();
-    fetch(`http://www.thehoodconservative.com/login`, {
+    fetch(`https://www.thehoodconservative.com/login`, {
       method: "POST",
       credentials: "include",
       withCredentials: true,

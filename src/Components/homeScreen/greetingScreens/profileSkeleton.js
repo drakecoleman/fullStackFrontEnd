@@ -15,7 +15,7 @@ function Skeleton(props) {
   const chatLength = chats.length;
 
   useEffect(() => {
-    fetch("http://localhost:3000/getChats", {
+    fetch("https://www.thehoodconservative.com/getChats", {
       method: "GET",
       credentials: "include",
       withCredentials: true,

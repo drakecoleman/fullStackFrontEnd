@@ -8,7 +8,7 @@ import "./chatBoxStyles.css";
 import io from "socket.io-client";
 
 function ChatBox(props) {
-  const socket = io.connect("http://localhost:3000");
+  const socket = io.connect("https://www.thehoodconservative.com/");
   const { id, setID } = useContext(ChatContext);
 
   const { userInfo, setUserInfo } = useContext(LoginContext);

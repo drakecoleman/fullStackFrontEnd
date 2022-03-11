@@ -12,7 +12,7 @@ function Visitor() {
     email: "",
   });
   useEffect(() => {
-    fetch("http://localhost:3000/visitor", {
+    fetch("https://www.thehoodconservative.com/visitor", {
       method: "Post",
       credentials: "include",
       withCredentials: true,

@@ -7,7 +7,7 @@ function Messages(props) {
   const { userInfo, setUserInfo } = useContext(LoginContext);
   const history = useHistory();
 
-  fetch("http://localhost:3000/", {
+  fetch("https://www.thehoodconservative.com/", {
     method: "GET",
     credentials: "include",
     withCredentials: true,

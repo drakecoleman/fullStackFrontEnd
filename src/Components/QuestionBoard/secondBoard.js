@@ -61,7 +61,7 @@ function SecondBoard(props) {
     });
   };
   function submission(e) {
-    fetch(`http://localhost:3000/${props.fetchRoute}`, {
+    fetch(`https://www.thehoodconservative.com/${props.fetchRoute}`, {
       method: "POST",
       credentials: "include",
       withCredentials: true,

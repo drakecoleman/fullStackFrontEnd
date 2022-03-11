@@ -10,7 +10,7 @@ function Home() {
   let [logged, changeLogged] = useState(false);
   let [usersArray, setUsersArray] = useState([]);
   useEffect(() => {
-    fetch("http://www.thehoodconservative.com/", {
+    fetch("https://www.thehoodconservative.com/", {
       method: "GET",
       credentials: "include",
       withCredentials: true,

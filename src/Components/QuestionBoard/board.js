@@ -62,7 +62,7 @@ function Board(props) {
     }
   };
   function submission(e) {
-    fetch(`http://www.thehoodconservative.com/${props.fetchRoute}`, {
+    fetch(`https://www.thehoodconservative.com/${props.fetchRoute}`, {
       method: `POST`,
       credentials: `include`,
       withCredentials: true,
